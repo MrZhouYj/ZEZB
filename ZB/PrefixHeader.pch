@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  ZB
+//
+//  Created by ZEMac on 2016/11/23.
+//  Copyright © 2016年 ZEMac. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#import "TabBarViewController.h"
+#import "LiveVideoCoreSDK.h"
+#import "ZBShowViewController.h"
+#import "ZBWatchViewController.h"
+#import "ZBNavigationController.h"
+#import "RootViewController.h"
+
+#endif /* PrefixHeader_pch */
