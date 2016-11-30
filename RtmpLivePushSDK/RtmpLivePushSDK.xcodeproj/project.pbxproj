@@ -20631,7 +20631,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/VideoCore/RtmpManager/lib",
 				);
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -20663,7 +20663,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/VideoCore/RtmpManager/lib",
 				);
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -20688,6 +20688,7 @@
 				B7BB88101CA3BA7D00D05AEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
